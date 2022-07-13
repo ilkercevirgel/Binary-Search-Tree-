@@ -1,0 +1,46 @@
+1-) [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] array Binary-Search-Tree 
+
+we are taking 1 number this is (Root Node). Exp - 7
+
+Then we are looking next tnumber, if the Root Node is larger we place it to the left, if the Root Node is small we place it to the right
+
+Note:style node appearance
+          ()----right node
+          []----left node 
+    
+    
+1. Root Node 7
+2. Next number 5 ( 7 larger  5 so --> 5 going to left )
+3. Next number 1 ( 7 larger 1 so --- 1 going left then 5 larger 1 so ---> 1 going left
+              
+                         (7)
+               [5]                 
+          [1]                      
+           
+ 4.Next number 8 (8 larger 7 ---- 8 going to right)
+ 
+                 (7)
+               [5]                 (8)
+          [1]                        
+
+ 5.Next number 3 ( 7 larger 3--- so 3 going left we are looking 5 and same situation 5 larger 3 so-- 3 going left then 3 larger 1 because that 3 going right
+ 
+                       (7)
+               [5]                 (8)
+          [1]                       
+             (3)
+             
+  6.Next number 9 bigger then 7 going to righte- biger then 8 going right
+  7.Next number 4 -- 7 biger 4 going left, 5 biger 4 going left , in area 0 vs 3 big size is 3 4 going right
+  8.Next number 2  same situation last part in 3 number 3 larger 2 so 2 going left
+  
+  
+                  
+                         (7)
+               [5]                 (8)
+          [1]       (6)                  (9)
+      [0]    (3)
+           [2] (4) 
+          
+          
+         
